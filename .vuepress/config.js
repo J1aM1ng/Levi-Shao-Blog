@@ -3,7 +3,7 @@ module.exports = {
   title: 'Levi-Shao Blog',
   description: 'Levi-Shao Blog',
   dest: 'public',
-  base: '/Levi-Shao_Blog/',
+  base: '/Levi-Shao-Blog/',
   head: [
     [
       'link',

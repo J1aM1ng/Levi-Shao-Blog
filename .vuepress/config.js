@@ -9,7 +9,7 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: '/logo.jpg',
+        href: '/favicon.ico',
       },
     ],
     [

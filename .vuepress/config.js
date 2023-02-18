@@ -29,8 +29,8 @@ module.exports = {
     mode: 'light',
     subSidebar: 'auto',
     valineConfig: {
-      appId: 'aCSipIDPBNQTreNNNr4bT5R4-gzGzoHsz',
-      appKey: 'zuQELzuRINaCxHgIozNrnwKO',
+      appId: 'e2e9P0EwMNw7F6iLuZB744Bl-gzGzoHsz',
+      appKey: 'LXtHM9rEehkuVUFcw9j1oEdT',
     },
     nav: [
       {

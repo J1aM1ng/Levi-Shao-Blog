@@ -2,9 +2,9 @@
 title: CMU SE-SS Task2 LargestSumOfWeights
 date: 2022-12-18
 categories:
- - 算法
+ - algorithm
 tags:
- - 算法
+ - algorithm
 sidebar: 'auto'
 ---
 

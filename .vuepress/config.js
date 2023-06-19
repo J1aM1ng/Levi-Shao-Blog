@@ -1,9 +1,14 @@
-const sidebar = require('./siderbar.js');
+const sidebar = require('./sidebar.js');
 module.exports = {
-  title: 'Levi-Shao Blog',
-  description: 'Levi-Shao Blog',
+  title: 'Levi-Shao-Blog',
+  description: 'Levi-Shao-Blog',
   dest: 'public',
   base: '/Levi-Shao-Blog/',
+  locales: {
+    '/': {
+      lang: 'zh-CN'
+    }
+  },
   head: [
     [
       'link',
@@ -20,11 +25,6 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    '@vuepress-reco/vuepress-plugin-comments',
-    'vuepress-plugin-meting',
-  ],
-  theme: 'reco',
   themeConfig: {
     mode: 'light',
     subSidebar: 'auto',
@@ -34,7 +34,7 @@ module.exports = {
     },
     nav: [
       {
-        text: '主页',
+        text: '首页',
         link: '/',
         icon: 'reco-home',
       },
@@ -43,11 +43,6 @@ module.exports = {
         link: '/timeline/',
         icon: 'reco-date',
       },
-      // {
-      //   text: '留言板',
-      //   link: '/blog/views/messageBoard.html',
-      //   icon: 'reco-suggestion',
-      // },
       {
         text: 'Contact',
         icon: 'reco-message',
@@ -57,10 +52,14 @@ module.exports = {
             link: 'https://github.com/J1aM1ng',
             icon: 'reco-github',
           },
+          {
+            text: 'Linkedin',
+            link: 'https://www.linkedin.com/in/levi-shao/',
+          },
         ],
       },
     ],
-    sidebar,
+    // sidebar,
     type: 'blog',
     blogConfig: {
       category: {
@@ -90,6 +89,11 @@ module.exports = {
     record: '首页',
     startYear: '2020',
   },
+  plugins: [
+    '@vuepress-reco/vuepress-plugin-comments',
+    'vuepress-plugin-meting',
+  ],
+  theme: 'reco',
   markdown: {
     lineNumbers: true,
   },
